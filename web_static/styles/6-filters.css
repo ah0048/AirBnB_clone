@@ -44,3 +44,28 @@ button:hover {
     font-size: 14px;
     margin-top: 0;
 }
+.popover {
+    display: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    padding: 30px;
+    width: calc(100% + 40px);
+    margin-left: -40px;
+    background-color: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+}
+.locations:hover .popover {
+    display: block;
+}
+.amenities:hover .popover {
+    display: block;
+}
+.state_in_list {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.sublist {
+    list-style-type: none;
+    padding-left: 20px;
+}
